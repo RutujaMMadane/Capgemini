@@ -1,0 +1,19 @@
+package com.bean;
+
+public class Student {
+	private String name;
+	private Address add;
+	public Student()
+	{
+		
+	}
+	@Autowired
+	public Student(String name,Address add)
+	{
+		super();
+		this.name=name;
+		this.add=add;
+	}
+	
+
+}

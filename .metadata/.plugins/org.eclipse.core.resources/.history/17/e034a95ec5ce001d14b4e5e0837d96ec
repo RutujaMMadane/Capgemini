@@ -1,0 +1,16 @@
+package com.bean;
+
+import com.entity.ApplicationContext;
+import com.entity.ClassPathXmlApplicationContext;
+import com.entity.TextEditior;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+		A a=(A) context.getBean("a");
+		a.msg();
+
+	}
+
+}

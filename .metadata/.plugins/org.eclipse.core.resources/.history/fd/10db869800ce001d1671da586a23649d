@@ -1,0 +1,13 @@
+package com.bean;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+		Developr developer=(Developer) context.getBean("developer");
+		System.out.println(customer.getLanguage());
+		System.out.println(customer.getLanguage().getName());
+
+	}
+
+}

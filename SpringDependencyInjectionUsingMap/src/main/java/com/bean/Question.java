@@ -1,0 +1,51 @@
+package com.bean;
+
+import java.util.Map;
+
+public class Question {
+	
+	private int qid;
+	private String name;
+	Map<String,String>answer;
+	public Question()
+	{
+		
+	}
+	public Question(int qid, String name, Map<String, String> answer) {
+		super();
+		this.qid = qid;
+		this.name = name;
+		this.answer = answer;
+	}
+	public int getQid() {
+		return qid;
+	}
+	public void setQid(int qid) {
+		this.qid = qid;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Map<String, String> getAnswer() {
+		return answer;
+	}
+	public void setAnswer(Map<String, String> answer) {
+		this.answer = answer;
+	}
+	
+	protected void displayInfo()
+	{
+		System.out.println("question id:"+qid);
+		System.out.println("question name:"+name);
+		System.out.println("Answers....");
+		
+		for(Map.Entry<String,String>m:answer.entrySet())
+		{
+			System.out.println(m.getKey()+"Posted by");
+			System.out.println(m.getValue());
+		}
+	}
+}

@@ -1,0 +1,19 @@
+package com.bean;
+
+import com.bean.ApplicationContext;
+import com.bean.ClassPathXmlApplicationContext;
+import com.bean.Customer;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("applicationContext.xml");
+		Person person=(Person) context.getBean("person");
+		System.out.println(person.getAbility());
+		System.out.println(person.getAbility().getSkill());
+
+	}
+
+}

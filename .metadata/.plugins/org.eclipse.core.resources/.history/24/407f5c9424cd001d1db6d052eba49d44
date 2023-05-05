@@ -1,0 +1,9 @@
+package com.entity;
+
+public class TestEditior {
+	
+	@Autowired
+	private SpellCheker spellChecker;
+	public Te
+
+}

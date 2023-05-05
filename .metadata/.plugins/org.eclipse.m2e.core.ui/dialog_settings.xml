@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Capgemini\SpringDepencyInjectionUsingConstructor\src\main\java\com\bean\AppMain.java"/>
+			<item value="C:\Capgemini\SpringDependencyInjectionUsingMap\src\main\resources\applicationContext.xml"/>
+			<item value="C:\Capgemini\SpringDependencyInjectionUsingList\src\main\java\com\bean\Liberary.java"/>
+			<item value="C:\Capgemini\SpringFrameworkConstructorDependentObject\src\main\java\com\bean\Address.java"/>
+			<item value="C:\Capgemini\SpringDependencyInjectionUsingPrimitive\src\main\java\com\bean\AppMain.java"/>
+			<item value="C:\Capgemini\SpringDependencyByConstructor\pom.xml"/>
+			<item value="C:\Capgemini\SpringDepencyInjectionUsingConstructor\src\main\java\com\bean\Student.java"/>
+			<item value="C:\Capgemini\SpringAutoWireExample\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.demo"/>
+			<item value="com.bean"/>
+		</list>
+		<list key="name">
+			<item value="SpringFrameworkUsingNamespace"/>
+			<item value="SpringDependencyInjectionUsingFactoryMethod"/>
+			<item value="SpringDependencyInjectionUsingMap"/>
+			<item value="SpringDependencyInjectionUsingList"/>
+			<item value="SpringFrameworkConstructorDependentObject"/>
+			<item value="SpringDependencyInjectionUsingPrimitive"/>
+			<item value="SpringDependencyByConstructor"/>
+			<item value="SpriingFrameworkDependencyByType"/>
+			<item value="SpringFrameworkDependencyByName"/>
+			<item value="SpringBeanFactoryExample"/>
+			<item value="SpringDepencyInjectionUsingConstructor"/>
+			<item value="SpringAutoWireExample"/>
+			<item value="FirstSpringFrameworkExample"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringFrameworkUsingNamespace"/>
+			<item value="SpringDependencyInjectionUsingFactoryMethod"/>
+			<item value="SpringDependencyInjectionUsingMap"/>
+			<item value="SpringDependencyInjectionUsingList"/>
+			<item value="SpringFrameworkConstructorDependentObject"/>
+			<item value="SpringDependencyInjectionUsingPrimitive"/>
+			<item value="SpringDependencyByConstructor"/>
+			<item value="SpriingFrameworkDependencyByType"/>
+			<item value="SpringFrameworkDependencyByName"/>
+			<item value="SpringBeanFactoryExample"/>
+			<item value="SpringDepencyInjectionUsingConstructor"/>
+			<item value="SpringAutoWireExample"/>
+			<item value="FirstSpringFrameworkExample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

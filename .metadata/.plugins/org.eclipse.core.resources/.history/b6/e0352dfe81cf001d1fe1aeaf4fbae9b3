@@ -1,0 +1,13 @@
+package com.bean;
+
+public class AppMain {
+
+	public static void main(String[] args) {
+		AbstractApplicationContext context=new AnnotationConfigApplicationContext(Config.class);
+		
+		Systen.out.println(context.getBean("employee1"));
+		Systen.out.println(context.getBean("employee2"));
+		
+	}
+
+}

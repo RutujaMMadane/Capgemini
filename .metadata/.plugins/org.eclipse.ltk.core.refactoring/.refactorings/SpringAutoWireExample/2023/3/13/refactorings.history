@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.entity.TestEditior.java&apos; to &apos;TextEditior.java&apos;&#x0D;&#x0A;- Original project: &apos;SpringAutoWireExample&apos;&#x0D;&#x0A;- Original element: &apos;com.entity.TestEditior.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.entity.TextEditior.java&apos;" description="Rename compilation unit &apos;TestEditior.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.entity{TestEditior.java" name="TextEditior.java" references="false" stamp="1679979251065" version="1.0"/>
+</session>
